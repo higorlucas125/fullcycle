@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+# o ENTRYPOINT é um valor fixo
+ENTRYPOINT ["echo","Hello"]
+
+# o cmd é um valor variavel
+CMD [ "World"]
